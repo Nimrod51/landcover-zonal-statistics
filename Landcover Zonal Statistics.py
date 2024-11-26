@@ -10,7 +10,7 @@ import math
 
 # Step 1: Load CSV files
 zonal_histogram = pd.read_csv("data/zonal_histogram_bundeslander.csv")  # Zonal Histogram Output
-clc_legend = pd.read_csv("/home/ngavish/Projects/_DATA/CORINE/clc_legend.csv")  # CLC Legend
+clc_legend = pd.read_csv("/data/clc_legend.csv")  # CLC Legend
 
 # Step 2: Reshape Zonal Histogram for easy access
 histogram_columns = [col for col in zonal_histogram.columns if col.startswith("HISTO_")]
