@@ -1,0 +1,13 @@
+# Ignore specific .png files in the output folder
+geodata/islas_20170101_generalizada.shx
+geodata/islas_20170101_generalizada.shp
+geodata/islas_20170101_generalizada.prj
+geodata/islas_20170101_generalizada.dbf
+
+# Ignore a specific Jupyter Notebook file
+Landcover Zonal Statistics - WIP.ipynb
+.ipynb_checkpoints
+
+# General rules (optional, to avoid cluttering with all .png or .ipynb files)
+# !output/*.png (This line can be used to override ignoring all PNGs in the folder if you add exclusions)
+# *.ipynb (Only if you want to ignore all notebooks, which you can exclude specific .ipynb needed )
