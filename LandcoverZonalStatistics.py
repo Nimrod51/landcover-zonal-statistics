@@ -146,6 +146,7 @@ def plot_stacked_bar_chart_plotly(aggregated_data, clc_legend, selected_label):
     )
 
     fig.show()
+    
 
 # Plot stacked bar chart (Plotly)
 plot_stacked_bar_chart_plotly(aggregated_data, clc_legend, selected_label)
