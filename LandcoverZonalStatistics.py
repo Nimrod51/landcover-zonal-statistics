@@ -9,7 +9,7 @@ import matplotlib.patheffects as path_effects
 import math
 
 # Step 1: Load CSV files
-zonal_histogram = pd.read_csv("data/zonal_histogram_portugal.csv")  # Zonal Histogram Output
+zonal_histogram = pd.read_csv("data/zonal_histogram_bundeslander.csv")  # Zonal Histogram Output
 clc_legend = pd.read_csv("data/clc_legend.csv")  # CLC Legend
 
 # Step 2: Reshape Zonal Histogram for easy access
