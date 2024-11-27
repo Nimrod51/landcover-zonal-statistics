@@ -1,4 +1,4 @@
-# CORINE Landcover Assessment By Zone
+# Zonal Landcover Statistics with CORINE Dataset
 
 ## Introduction
 This Python script automates the process of visualizing the distribution of landcover leveraging the [CORINE Land Cover dataset](https://land.copernicus.eu/en/products/corine-land-cover) across different regions, using either a pie chart or a stacked bar chart. The script utilizes Plotly for interactive chart generation to explore landscape composition at various landcover aggregation levels. The flexibility of the script enables easy adaptation to different datasets and land cover categories, providing a powerful tool for quick land cover assessments and comparisons.
